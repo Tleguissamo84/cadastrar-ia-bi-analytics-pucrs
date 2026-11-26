@@ -1,0 +1,48 @@
+{
+  "horizonte": 1,
+  "historico": {
+    "inicio_semana": "2009-12-07",
+    "ultima_semana": "2011-11-28",
+    "semanas_calendario": 104
+  },
+  "treino": {
+    "inicio_semana": "2009-12-07",
+    "ultima_semana": "2010-11-29",
+    "semanas_calendario": 52
+  },
+  "validacao": {
+    "inicio_semana": "2010-12-06",
+    "ultima_semana": "2011-08-29",
+    "semanas_calendario": 39
+  },
+  "teste": {
+    "inicio_semana": "2011-09-05",
+    "ultima_semana": "2011-11-28",
+    "semanas_calendario": 13
+  },
+  "lacunas": [
+    "2009-12-28",
+    "2010-12-27"
+  ],
+  "avaliadas_validacao": 34,
+  "alpha": 1.0,
+  "linhas_brutas": 1067371,
+  "linhas_elegiveis": 983456,
+  "metricas": {
+    "ultima_observada": {
+      "mae": 26860.0,
+      "rmse": 32976.43480519898,
+      "semanas_avaliadas": 13
+    },
+    "media_4": {
+      "mae": 22718.134615384617,
+      "rmse": 28523.911768242797,
+      "semanas_avaliadas": 13
+    },
+    "ridge": {
+      "mae": 27107.94429101452,
+      "rmse": 32123.805172745382,
+      "semanas_avaliadas": 13
+    }
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "atributos": 19,
+  "registros": 380,
+  "estados": {
+    "A": {
+      "confirmado": 30,
+      "ausente": 125,
+      "nao_avaliado": 20,
+      "pendente_validacao": 12,
+      "nao_aplicavel": 3
+    },
+    "B": {
+      "confirmado": 131,
+      "declarado": 21,
+      "ilegivel": 8,
+      "pendente_validacao": 16,
+      "nao_aplicavel": 3,
+      "ausente": 11
+    }
+  },
+  "origens": {
+    "A": {
+      "fotografia": 30
+    },
+    "B": {
+      "fotografia": 30,
+      "etiqueta": 91,
+      "declaracao": 21,
+      "derivacao": 10
+    }
+  },
+  "indicadores": [
+    {
+      "indicador": "completude",
+      "etapa": "A",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 2,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "A",
+      "bloco": "origem",
+      "situacao": "avaliavel",
+      "percentual": 0.0,
+      "numerador": 0.0,
+      "denominador": 10.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "A",
+      "bloco": "composicao",
+      "situacao": "avaliavel",
+      "percentual": 0.0,
+      "numerador": 0.0,
+      "denominador": 10.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "A",
+      "bloco": "conservacao",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 1,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "A",
+      "bloco": "forro",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 9,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "A",
+      "bloco": "global",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 2,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "B",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 1,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "B",
+      "bloco": "origem",
+      "situacao": "avaliavel",
+      "percentual": 100.0,
+      "numerador": 10.0,
+      "denominador": 10.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "B",
+      "bloco": "composicao",
+      "situacao": "avaliavel",
+      "percentual": 90.0,
+      "numerador": 9.0,
+      "denominador": 10.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "B",
+      "bloco": "conservacao",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 6,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "B",
+      "bloco": "forro",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 9,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "completude",
+      "etapa": "B",
+      "bloco": "global",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": null,
+      "denominador": null,
+      "pendencias": 2,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "A",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 10.0,
+      "denominador": 10.0,
+      "pendencias": 52,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "A",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": 11.111111,
+      "numerador": 10.0,
+      "denominador": 90.0,
+      "pendencias": 52,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "A",
+      "bloco": "origem",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 20,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "A",
+      "bloco": "origem",
+      "situacao": "parcial",
+      "percentual": 0.0,
+      "numerador": 0.0,
+      "denominador": 70.0,
+      "pendencias": 20,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "A",
+      "bloco": "composicao",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 10,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "A",
+      "bloco": "composicao",
+      "situacao": "parcial",
+      "percentual": 0.0,
+      "numerador": 0.0,
+      "denominador": 40.0,
+      "pendencias": 10,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "A",
+      "bloco": "conservacao",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 79,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "A",
+      "bloco": "conservacao",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": null,
+      "pendencias": 79,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "A",
+      "bloco": "forro",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 37,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "A",
+      "bloco": "forro",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": null,
+      "pendencias": 37,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "B",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 28.0,
+      "denominador": 28.0,
+      "pendencias": 30,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "B",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": 31.111111,
+      "numerador": 28.0,
+      "denominador": 90.0,
+      "pendencias": 30,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "B",
+      "bloco": "origem",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 30.0,
+      "denominador": 30.0,
+      "pendencias": 20,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "B",
+      "bloco": "origem",
+      "situacao": "parcial",
+      "percentual": 42.857143,
+      "numerador": 30.0,
+      "denominador": 70.0,
+      "pendencias": 20,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "B",
+      "bloco": "composicao",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 18.0,
+      "denominador": 18.0,
+      "pendencias": 10,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "B",
+      "bloco": "composicao",
+      "situacao": "parcial",
+      "percentual": 45.0,
+      "numerador": 18.0,
+      "denominador": 40.0,
+      "pendencias": 10,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "B",
+      "bloco": "conservacao",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 53.0,
+      "denominador": 53.0,
+      "pendencias": 176,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "B",
+      "bloco": "conservacao",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": 53.0,
+      "denominador": null,
+      "pendencias": 176,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "consistencia",
+      "etapa": "B",
+      "bloco": "forro",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 2.0,
+      "denominador": 2.0,
+      "pendencias": 37,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "cobertura_testes",
+      "etapa": "B",
+      "bloco": "forro",
+      "situacao": "parcial",
+      "percentual": null,
+      "numerador": 2.0,
+      "denominador": null,
+      "pendencias": 37,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "A",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 10.0,
+      "denominador": 10.0,
+      "pendencias": 2,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "A",
+      "bloco": "origem",
+      "situacao": "nao_definido",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "A",
+      "bloco": "composicao",
+      "situacao": "nao_definido",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "A",
+      "bloco": "conservacao",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 1,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "A",
+      "bloco": "forro",
+      "situacao": "pendente",
+      "percentual": null,
+      "numerador": 0.0,
+      "denominador": 0.0,
+      "pendencias": 9,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "B",
+      "bloco": "identificacao",
+      "situacao": "parcial",
+      "percentual": 96.551724,
+      "numerador": 28.0,
+      "denominador": 29.0,
+      "pendencias": 1,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "B",
+      "bloco": "origem",
+      "situacao": "avaliavel",
+      "percentual": 100.0,
+      "numerador": 20.0,
+      "denominador": 20.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "B",
+      "bloco": "composicao",
+      "situacao": "avaliavel",
+      "percentual": 100.0,
+      "numerador": 9.0,
+      "denominador": 9.0,
+      "pendencias": 0,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "B",
+      "bloco": "conservacao",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 53.0,
+      "denominador": 53.0,
+      "pendencias": 7,
+      "versao": "provisorio"
+    },
+    {
+      "indicador": "rastreabilidade",
+      "etapa": "B",
+      "bloco": "forro",
+      "situacao": "parcial",
+      "percentual": 100.0,
+      "numerador": 1.0,
+      "denominador": 1.0,
+      "pendencias": 9,
+      "versao": "provisorio"
+    }
+  ],
+  "testes": {
+    "A": {
+      "instancias": 480,
+      "avaliaveis": 10,
+      "comuns": 10,
+      "por_bloco": {
+        "identificacao": {
+          "nao_executado": 52,
+          "avaliavel": 10,
+          "nao_avaliavel": 28
+        },
+        "origem": {
+          "nao_executado": 20,
+          "nao_avaliavel": 50
+        },
+        "composicao": {
+          "nao_executado": 10,
+          "nao_avaliavel": 30
+        },
+        "forro": {
+          "aplicabilidade_pendente": 36,
+          "nao_executado": 1,
+          "nao_avaliavel": 3
+        },
+        "conservacao": {
+          "nao_executado": 76,
+          "nao_avaliavel": 152,
+          "aplicabilidade_pendente": 3
+        }
+      }
+    },
+    "B": {
+      "instancias": 560,
+      "avaliaveis": 131,
+      "comuns": 10,
+      "por_bloco": {
+        "identificacao": {
+          "nao_executado": 30,
+          "nao_avaliavel": 32,
+          "avaliavel": 28
+        },
+        "origem": {
+          "nao_executado": 20,
+          "nao_avaliavel": 20,
+          "avaliavel": 30
+        },
+        "composicao": {
+          "nao_executado": 10,
+          "nao_avaliavel": 12,
+          "avaliavel": 18
+        },
+        "forro": {
+          "aplicabilidade_pendente": 36,
+          "nao_executado": 1,
+          "nao_avaliavel": 1,
+          "avaliavel": 2
+        },
+        "conservacao": {
+          "nao_executado": 172,
+          "nao_avaliavel": 79,
+          "aplicabilidade_pendente": 4,
+          "avaliavel": 53
+        }
+      }
+    }
+  },
+  "amostra_produtos": 10,
+  "pendencias": {
+    "acoes_humanas": {
+      "A": 2,
+      "B": 17,
+      "A/B": 0
+    },
+    "limitacoes": {
+      "A": 0,
+      "B": 19,
+      "A/B": 0
+    },
+    "condicao_futura": {
+      "A": 0,
+      "B": 0,
+      "A/B": 1
+    }
+  },
+  "cores": {
+    "mantidas": 7,
+    "corrigidas": 3
+  }
+}
